@@ -5,8 +5,6 @@
 }
 
 .container{
-    
-    max-width: 1366px;
     margin: auto;
 }
 /* Nevber Styles */
@@ -89,7 +87,7 @@ nav{
     color: #FF136F;
  }
 
- button{
+button{
     display: flex;
     margin-top: 10px;
     background-color: rgb(255, 88, 155);
@@ -150,4 +148,53 @@ nav{
 
 .cbox3{
     background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%,rgb(63, 7, 248) 74.29%);
+}
+
+/* shows and beg section */
+.show-card-section{
+    background: #F4F4F4;
+    margin-top: 60px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.show-title{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+}
+.show-container{
+    display: flex;
+    justify-content: space-between;
+   
+    
+     
+}
+.show-card{
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px 40px;
+    text-align: center;
+    
+     
+}
+.show-card img{
+    width: 366px;
+    height: 202px;
+}
+
+.card-prize{
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.btn-parimary{
+    text-align: center;
+    margin-left: 150px;
+    background-color: black;
+    color: white;
+    padding: 15px;
 }
